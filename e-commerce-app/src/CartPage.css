@@ -1,0 +1,49 @@
+/* CartPage.css */
+.cart-page {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .cart-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Align image and details horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .cart-item-image {
+    width: 80px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Add some spacing between image and details */
+  }
+  
+  .cart-item-details {
+    flex: 1; /* Allow details to take remaining space */
+  }
+  
+  .cart-item-name {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .cart-item-price {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .empty-cart-message {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  

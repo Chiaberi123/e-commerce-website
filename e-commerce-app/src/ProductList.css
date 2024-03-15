@@ -1,0 +1,49 @@
+/* ProductList.css */
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .auth-button {
+    padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #007bff; /* Blue */
+  }
+  
+  .signup-button {
+    background-color: #28a745; /* Green */
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .signup-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .products-container {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  }
+  /* Example of responsive layout */
+@media screen and (max-width: 768px) {
+  /* CSS for smaller screens */
+}
+
+  
